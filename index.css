@@ -62,7 +62,7 @@
     scroll-padding-top: 10rem;
     font-size: 10px;
     color: white;
-    background: linear-gradient(113.49deg, #1c205a -30.3%, #4e1536 58.12%);
+    background: linear-gradient(113.49deg, rgb(27, 29, 0) -30.3%, rgb(52, 10, 119) 58.12%);
     font-family: 'Cinzel Decorative', cursive;
   }
   
@@ -944,6 +944,7 @@
   .spacetop1 {
     margin-top: 1rem;
   }
+
   
   .spacebottom1 {
     margin-bottom: 1rem;
@@ -3356,8 +3357,8 @@
   }
   
   .btn:hover {
-    background: linear-gradient(214.02deg, #a538ff 6.04%, #850f58 92.95%);
-    color: rgb(221, 221, 221);
+    background: transparent;
+    color: rgb(255, 255, 255);
   }
   
   .shadow {
@@ -3396,7 +3397,7 @@
   }
   
   .bg-purple {
-    background: linear-gradient(214.02deg, rgb(255, 93, 161) 6.04%, #781ae4 92.95%);
+    background: linear-gradient(214.02deg, rgb(35, 6, 82) 6.04%, rgb(81, 12, 192) 92.95%);
   }
   
   .bg-darkblue {
@@ -3408,12 +3409,12 @@
   }
   
   .halfwhite {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.884);
     
   }
   
   .lightpurple {
-    color: #ea00ff;
+    color: rgb(132, 0, 255);
   }
   
   .darkblue {
@@ -3477,13 +3478,13 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1rem 0;
-    background: linear-gradient(214.02deg, rgb(255, 93, 161) 6.04%, #781ae4 92.95%);
+    background: linear-gradient(214.02deg, rgb(85, 18, 194) 6.04%, #781ae4 92.95%);
     border-radius: 10px;
     margin-top: 2.5rem;
   }
   
   .card .bid:hover {
-    background: linear-gradient(214.02deg, rgba(255, 93, 161, 0.4) 6.04%, rgba(120, 26, 228, 0.4) 92.95%);
+    background: linear-gradient(214.02deg, rgb(63, 12, 146) 6.04%, rgba(120, 26, 228, 0.4) 92.95%);
     border: 1px solid #A24BF8;
     color: #ffffff;
   }
@@ -3624,7 +3625,7 @@
   }
   
   .filter:hover {
-    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    background: linear-gradient(214.02deg, rgb(81, 12, 192) 6.04%, #671AE4 92.95%);
   }
   
   .collect.hide {
@@ -3835,7 +3836,7 @@
 }
 
 .conttotal {
-  padding: 65px;
+  padding: auto;
   position: relative;
   justify-content: space-evenly;
   display: flex;
